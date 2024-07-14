@@ -103,11 +103,11 @@ h6 {
 
 .header-navigation-item:hover::after,
 .header-navigation-item:focus::after {
-    content: '';
+    content: '-';
     position: absolute;
     width: 48px;
     height: 4px;
-
+    width: 100%
 }
 
 .header-unnamed-adress {
