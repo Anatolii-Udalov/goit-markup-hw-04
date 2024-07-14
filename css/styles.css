@@ -462,7 +462,43 @@ h6 {
     max-width: 264px;
 }
 
-.social-media-footer {
+.container-footer {
     display: flex;
-    gap: 24px;
+}
+
+.footer-right-block {
+    display: inline;
+    margin-right: 120px;
+}
+
+.social-media-footer {
+    display: inline;
+}
+
+.social-media-text-footer {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.icons-div-class-footer {
+    display: flex;
+    gap: 16px;
+}
+
+.icons-soc-media-footer {
+    fill: #ffff;
+}
+
+.icon-settings-section-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #404bbf;
 }
