@@ -52,7 +52,8 @@ h6 {
 /* -----Header---- */
 
 .header {
-    border-bottom: 1px solid #e7e9fc
+    border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-navigation {
@@ -94,20 +95,25 @@ h6 {
     color: #2e2f42;
     display: block;
     padding: 24px 0;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
 }
 
 .header-navigation-item:hover,
 .header-navigation-item:focus {
-    color: #404bbf
+    color: #404bbf;
 }
 
 .header-navigation-item:hover::after,
 .header-navigation-item:focus::after {
-    content: '-';
+    content: '';
+    width: 100%;
     position: absolute;
-    width: 48px;
+    left: 0;
+    bottom: -1px;
     height: 4px;
-    width: 100%
+    background-color: #404bbf;
+    border-radius: 2px;
 }
 
 .header-unnamed-adress {
@@ -123,6 +129,7 @@ h6 {
     letter-spacing: 0.02em;
     color: #434455;
     padding: 24px 0;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-adress-item:hover,
