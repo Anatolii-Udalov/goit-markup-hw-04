@@ -100,7 +100,7 @@ h6 {
     color: #404bbf;
 }
 
-.header-navigation-item:hover::after {
+.header-navigation-item::after {
     content: '';
     width: 100%;
     position: absolute;
